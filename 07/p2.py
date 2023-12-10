@@ -149,7 +149,6 @@ with open("input.txt") as file:
 
     total = 0
     for i, hand in enumerate(hands, start=1):
-        print(hand)
         total += i*hand.bid
 
     print(total)
